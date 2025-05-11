@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>양자택일 투표</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>투표: 찬성 vs 반대</h1>
+    <form id="voteForm">
+      <label><input type="radio" name="vote" value="yes"> 찬성</label>
+      <label><input type="radio" name="vote" value="no"> 반대</label>
+      <button type="submit">투표하기</button>
+    </form>
+    <div id="results">
+      <h2>투표 결과</h2>
+      <div class="bar-container">
+        <div class="bar yes-bar">
+          <span class="percentage" id="yes-percentage">0%</span>
+          <span class="count" id="yes-count">0명</span>
+        </div>
+        <div class="bar no-bar">
+          <span class="percentage" id="no-percentage">0%</span>
+          <span class="count" id="no-count">0명</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

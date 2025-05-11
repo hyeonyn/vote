@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 50px;
+  width: 80%;
+  max-width: 600px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form {
+  margin: 20px 0;
+}
+
+label {
+  font-size: 18px;
+  margin: 10px 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.bar-container {
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+  transition: width 0.3s ease;
+}
+
+.yes-bar {
+  background-color: #6f42c1; /* 보라색, 이미지와 유사 */
+}
+
+.no-bar {
+  background-color: #17a2b8; /* 청록색, 이미지와 유사 */
+}
+
+.percentage {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.count {
+  font-size: 14px;
+}
